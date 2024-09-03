@@ -37,3 +37,8 @@ CREATE TABLE Hashtag (
     hashtag_id INT PRIMARY KEY,
     tag VARCHAR(20)
 );
+
+CREATE TABLE post_Hashtag (
+    post_post_id INT PRIMARY KEY,
+    hashtag_hashtag_id INT
+);
